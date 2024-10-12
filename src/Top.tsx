@@ -169,24 +169,6 @@ const Top = () => {
     translateX: [-10, -10],
     easing: "easeOut",
   });
-  const parallax04 = useParallax({
-    translateY: [0, -80],
-    easing: "easeOut",
-  });
-  const parallax14 = useParallax({
-    translateY: [0, -50],
-    easing: "easeOut",
-  });
-  const parallax24 = useParallax({
-    translateY: [150, 30],
-    translateX: [10, 10],
-    easing: "easeOut",
-  });
-  const parallax34 = useParallax({
-    translateY: [150, 50],
-    translateX: [-10, -10],
-    easing: "easeOut",
-  });
   return (
     <>
       <div className="top-container">
@@ -215,9 +197,9 @@ const Top = () => {
             <span className="top-numbertext">{data.e}</span>
           </div>
         </div>
-        <div ref={ref} style={{height: "610vh"}}></div>
+        <div ref={ref} style={{height: "450vh"}}></div>
         <div style={{display: "flex", justifyContent: "flex-end", flexWrap: "wrap", position: "absolute", top: 0, width: "-webkit-fill-available"}}>
-          <div style={{width: "45%", position: "relative", overflowX: "clip", paddingLeft: "2%", marginRight: "2%"}}>
+          <div style={{width: "45%", position: "relative", overflowX: "clip", marginRight: "2%"}}>
             <div>
               <div ref={parallax.ref as React.RefObject<HTMLDivElement>} style={{width: "45%", position: "absolute"}}><img style={{width: "100%"}} src={phone1}/></div>
               <div ref={parallax1.ref as React.RefObject<HTMLDivElement>} style={{width: "40%", position: "absolute", right: 0, top: "20%"}}><img style={{width: "100%"}} src={phone2}/></div>
@@ -246,14 +228,6 @@ const Top = () => {
                 <div ref={parallax13.ref as React.RefObject<HTMLDivElement>} style={{width: "40%", position: "absolute", right: 0, top: "20%"}}><img style={{width: "100%"}} src={phone2}/></div>
                 <div ref={parallax23.ref as React.RefObject<HTMLDivElement>} style={{width: "35%", position: "absolute"}}><img style={{width: "100%"}} src={phone3}/></div>
                 <div ref={parallax33.ref as React.RefObject<HTMLDivElement>} style={{width: "30%", position: "absolute", right: 0}}><img style={{width: "100%"}} src={phone4}/></div>
-              </div>
-            </div>
-            <div style={{position: "absolute", top: "600vh", left: 0, right: 0}}>
-              <div style={{position: "relative"}}>
-                <div ref={parallax04.ref as React.RefObject<HTMLDivElement>} style={{width: "45%", position: "absolute"}}><img style={{width: "100%"}} src={phone1}/></div>
-                <div ref={parallax14.ref as React.RefObject<HTMLDivElement>} style={{width: "40%", position: "absolute", right: 0, top: "20%"}}><img style={{width: "100%"}} src={phone2}/></div>
-                <div ref={parallax24.ref as React.RefObject<HTMLDivElement>} style={{width: "35%", position: "absolute"}}><img style={{width: "100%"}} src={phone3}/></div>
-                <div ref={parallax34.ref as React.RefObject<HTMLDivElement>} style={{width: "30%", position: "absolute", right: 0}}><img style={{width: "100%"}} src={phone4}/></div>
               </div>
             </div>
           </div>
