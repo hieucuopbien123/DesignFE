@@ -1,0 +1,61 @@
+.toptextcontainer {
+  width: 100%; 
+  height: 100vh; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.nametext {
+  font-family: AnandaRegular;
+  font-size: clamp(40px, 20.5888px + 5.1765vw, 150px);
+  height: clamp(20px, -20.5888px + 10.8235vw, 250px);
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.jobtext {
+  font-size: clamp(20px, 11.176px + 2.3529vw, 70px);
+  cursor: pointer;
+}
+
+.firstdetailtext {
+  font-size: clamp(14px, 8.5296px + 1.4588vw, 45px);
+  width: 60%; 
+  letter-spacing: 1px;
+}
+.textaboutme {
+  font-weight: bolder;
+  font-size: clamp(90px, 52.9408px + 9.8824vw, 300px);
+  position: absolute; 
+  transition: transform 0.5s ease-out 0s;
+}
+
+.top-container {
+  padding: 0 clamp(10px, -0.5888px + 2.8235vw, 70px);
+  position: relative;
+}
+.top-numbertext {
+  font-size: clamp(25px, 19.7056px + 1.4118vw, 55px);
+  font-weight: bold; 
+  width: fit-content;
+  white-space: nowrap;
+}
+.top-headertext {
+  font-size: clamp(40px, 29.4112px + 2.8235vw, 100px);
+  font-weight: 600;
+}
+.top-detailtext {
+  font-size: clamp(16px, 10px + 1.6vw, 50px);
+  font-weight: 300;
+}
+
+ul li {
+  font-size: clamp(30px, 17.6464px + 3.2941vw, 100px);
+}
+ul {
+  line-height: clamp(40px, 22.3536px + 4.7059vw, 140px);
+  list-style: none;
+}

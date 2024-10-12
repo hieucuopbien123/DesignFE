@@ -16,8 +16,9 @@ html{
   scroll-behavior: smooth !important;
 }
 body{
-  height: 100%;
-  width: 100%;
+  min-height: 100%;
+  min-width: 100%;
+  overflow: clip;
 }
 :root{
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
