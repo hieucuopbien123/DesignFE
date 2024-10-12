@@ -178,7 +178,7 @@ const Top = () => {
             <div style={{flexGrow: 1, display: "flex", flexDirection: "column", justifyContent: "center"}}>
               <span className="top-headertext">{data.b}</span>
               <div style={{paddingTop: "30px"}}></div>
-              <div style={{display: "flex", gap: "20px", flexWrap: "wrap"}}>
+              <div style={{display: "flex", gap: "20px", flexWrap: "wrap", width: "fit-content"}}>
                 <span className="top-numbertext">{data.c[0]}</span>
                 {
                   data.c.slice(1).map((x: string, index: number) => (

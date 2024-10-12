@@ -46,10 +46,12 @@
 .top-headertext {
   font-size: clamp(40px, 29.4112px + 2.8235vw, 100px);
   font-weight: 600;
+  width: fit-content;
 }
 .top-detailtext {
   font-size: clamp(16px, 10px + 1.6vw, 50px);
   font-weight: 300;
+  width: fit-content;
 }
 
 ul li {
