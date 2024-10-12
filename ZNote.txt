@@ -1,6 +1,0 @@
-Điều đặc biệt là phải dùng useIntersectionObserver để bắt khi scroll đến vị trí nào thì có animation là gì. Vì css only toàn yêu cầu animation theo scroll thôi
-
-URL: https://www.youtube.com/watch?v=KWVJTRWILjU
-Để làm được animation phức tạp, ta phải nhìn xa hơn, tổng quát hơn. Hiện tại ta chia như vậy bị sai vì muốn cái bên trái đổi, ta buộc phải sửa khi scroll tới vị trí nào của cái bên phải thì cái bên trái thêm class animation, rồi xoá class đó đi và thêm lại liên tục cho cái bên trái chứ kp như này. Vì cái bên trái chỉ biến đổi mà k có hiệu ứng scroll.
-
-Ghi lại toàn bộ scroll animation vào cái parallax animation

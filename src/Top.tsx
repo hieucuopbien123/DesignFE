@@ -233,6 +233,7 @@ const Top = () => {
           </div>
         </div>
       </div>
+      <div style={{height: "50vh"}}></div>
       <div style={{display: "flex", justifyContent: "space-between", padding: "50px 15vw", minHeight: "100vh", alignItems: "center", gap: "20px", flexWrap: "wrap"}}>
         <ul>
           <li>HTML & CSS</li>

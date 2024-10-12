@@ -39,7 +39,7 @@
 }
 .top-numbertext {
   font-size: clamp(25px, 19.7056px + 1.4118vw, 55px);
-  font-weight: bold; 
+  font-weight: 500; 
   width: fit-content;
   white-space: nowrap;
 }
