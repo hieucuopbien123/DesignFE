@@ -20,7 +20,7 @@ const App = () => {
         <div style={{display: "flex", justifyContent: "flex-end", alignItems: "flex-end", height: "200px"}} className="scroll-reveal">
           <p className="firstdetailtext">
             <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere at similique magnam nobis eius consequuntur quae debitis nisi, tempora repellendus.
+            Original site: https://sureshmurali.github.io  /  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere at similique magnam nobis.
             </span>
           </p>
           <div style={{width: "10%"}}></div>

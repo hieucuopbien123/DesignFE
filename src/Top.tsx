@@ -18,7 +18,7 @@ const staticData: StaticDataItem[] = [
     a: "01",
     b: "NextJS",
     c: ["Fullstack", "ThreeJS"],
-    d: "Trying to clone this: https://sureshmurali.github.io",
+    d: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates maiores nemo et, laudantium possimus inventore.",
     e: "Frontend"
   },
   {
